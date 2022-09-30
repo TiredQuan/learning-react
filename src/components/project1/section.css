@@ -1,0 +1,36 @@
+
+h3{
+    font-size: 39px;
+    font-weight: 700;
+    padding: 46px 0;
+    margin: 0 0 0 27px;
+  }
+  
+  section{
+    height: 459px;
+    background-color: #282D35;
+    color: white;
+    position: relative;
+  }
+  section::before{
+    background: center url(../images/ReactBG.png) no-repeat;
+    /* background-size: 100%; */
+    width: 131.5px;
+    height: 263px;
+    position: absolute;
+    pointer-events: none;
+    content: '';
+    bottom: 25%;
+    right: 0;
+  }
+  section ul li{
+    margin: 15px 74px;
+  }
+  
+  ul li::before{
+    color: #61DAFB;
+      float: left;
+      margin: 0 0 0 -1.25em;
+      width: 1em;
+      content: '\2022';
+  }
