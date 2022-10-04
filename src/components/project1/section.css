@@ -13,7 +13,7 @@ h3{
     position: relative;
   }
   section::before{
-    background: center url(../images/ReactBG.png) no-repeat;
+    background: center url(../images/Proj1/ReactBG.png) no-repeat;
     /* background-size: 100%; */
     width: 131.5px;
     height: 263px;
