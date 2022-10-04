@@ -4,7 +4,7 @@ import './nav.css'
 export default function nav(){
     return(
         <nav className='d-flex'>
-        <a className='logo' href='#'><img src={logo} alt="" /><h1>ReactFacts</h1></a>
+        <a className='logo' href='./App.jsx'><img src={logo} alt="" /><h1>ReactFacts</h1></a>
         <h2>React Course - Project 1</ h2>
       </nav>
     )
