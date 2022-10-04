@@ -1,4 +1,4 @@
-import logo from './../../images/logo.svg';
+import logo from './../../images/Proj1/logo.svg';
 import './nav.css'
 
 export default function nav(){
