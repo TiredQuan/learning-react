@@ -6,7 +6,7 @@ import './App.css'
 
 export default function App(){
     return(
-        <div>
+        <div className='App'>
             <Header></Header>
             <Main></Main>
             <Footer></Footer>
