@@ -4,7 +4,7 @@ import './Header.css'
 
 export default function Header(){
     return(
-        <div className='header'>
+        <div className='header2'>
             <img src={ava} className='w-100' alt="" />
             <div className='my-4 text-center'>
                 <h1 className='f-weight-700 f-size-25 mt-1 mb-0'>Laura Smith</h1>

@@ -1,0 +1,13 @@
+.main3{
+color: black;
+}
+.imageHero{
+    margin: 26px 100px 0;
+    height: 232px;
+}
+.imageHero img{
+    margin: 4.22px;
+}
+.imageHero div{
+    width: fit-content;
+}

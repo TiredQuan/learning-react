@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-
+body{
+    background-color: #E5E5E5;
+}
 
 .App{
     font-family: 'Poppins', sans-serif;
@@ -8,4 +10,28 @@
     margin: 100px auto;
     border-radius: 8.95px;
     overflow: hidden;
+    background-color: #fff;
+}
+
+.f-weight-600{
+    font-weight: 600;
+}
+.f-weight-400{
+    font-weight: 400;
+}
+.f-weight-300{
+    font-weight: 300;
+}
+
+.f-size-36{
+    font-size: 36px;
+}
+.f-size-16{
+    font-size: 16px;
+}
+.f-size-12{
+    font-size: 12px;
+}
+.f-size-10{
+    font-size: 10.24px;
 }
