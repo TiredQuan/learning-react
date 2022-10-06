@@ -1,17 +1,25 @@
 .footer{
     overflow-x: auto;
 }
-.footer::-webkit-scrollbar{
+/* .footer::-webkit-scrollbar{ */
     /* display: none; */
     /* Fix this later */
-}
+/* } */
 .expGroup{
     width: 176px;
-
+    position: relative;
 }
 .star{
     color: #FE395C;
 }
 .image{
     border-radius: 9px;
+}
+.cardSold{
+    position: absolute;
+    background-color: white;
+    top: 10px;
+    left: 10px;
+    border-radius: 2px;
+    pointer-events: none;
 }
