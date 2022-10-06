@@ -29,9 +29,15 @@ body{
 .f-size-16{
     font-size: 16px;
 }
+.f-size-14{
+    font-size: 14px;
+}
 .f-size-12{
     font-size: 12px;
 }
 .f-size-10{
     font-size: 10.24px;
+}
+.p-gray{
+    color: #918E9B;
 }

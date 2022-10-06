@@ -9,7 +9,7 @@ export default function App(){
         <div className="App">
             <Header></Header>
             <Main></Main>
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     )
 }

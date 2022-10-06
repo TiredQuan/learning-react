@@ -1,11 +1,10 @@
-// import './Main.css'
 import styles from './Main.module.css'
 
 
 export default function Main(){
     return(
         <div className={styles.main3}>
-        <section className={styles.imageHero + ' d-flex justify-content-center align-items-center'}>
+        <section className={styles.imageHero + ' d-flex justify-content-center align-items-center mb-3'}>
             <img src={require("./../../images/Proj3/image28.png")} alt="" />
             <div className="align-self-start mt-1">
                 <img src={require("./../../images/Proj3/image30.png")} alt="" />
@@ -25,7 +24,7 @@ export default function Main(){
             </div>
         </section>
         <section className='mx-4'>
-            <h1 className='text-capitalize f-size-36 f-weight-600'>Online experiences</h1>
+            <h1 className='my-3 text-capitalize f-size-36 f-weight-600'>Online experiences</h1>
             <p className='f-size-16 f-weight-300'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
         </section>
     </div>

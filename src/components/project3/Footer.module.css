@@ -1,0 +1,17 @@
+.footer{
+    overflow-x: auto;
+}
+.footer::-webkit-scrollbar{
+    /* display: none; */
+    /* Fix this later */
+}
+.expGroup{
+    width: 176px;
+
+}
+.star{
+    color: #FE395C;
+}
+.image{
+    border-radius: 9px;
+}
