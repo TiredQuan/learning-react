@@ -1,5 +1,6 @@
 .App{
     width: 550px;
+    position: relative;
     margin: 75px auto;
     font-family: 'Inter', sans-serif;
 }

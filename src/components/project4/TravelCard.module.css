@@ -1,0 +1,14 @@
+.TravelCard{
+    display: flex;
+    width: 100%;
+
+}
+
+.TravelCard .CardImage{
+    width: 125px;
+    height: 168px;
+    background: center/cover no-repeat;
+    /* background-size: 500%; */
+}
+
+/* 326px FOR THE WORD DIV */
