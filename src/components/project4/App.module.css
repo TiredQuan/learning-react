@@ -1,3 +1,14 @@
-.apiCard{
+.App{
     width: 550px;
+    margin: 75px auto;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.fw500fs14{
+    font-weight: 500;
+    font-size: 14.46px;
+}
+nav{
+    height: 55px;
 }
