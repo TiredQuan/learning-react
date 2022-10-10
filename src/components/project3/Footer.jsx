@@ -9,6 +9,7 @@ export default function Footer(){
 
     const cardData = [
     {
+        id:1,
         image: card1,
         star: 5.0,
         place: 6,
@@ -18,6 +19,7 @@ export default function Footer(){
         soldPlus:'sold out'
     },
     {
+        id:2,
         image: card2,
         star: 5.0,
         place: 30,
@@ -27,6 +29,7 @@ export default function Footer(){
         soldPlus:'online'
     },
     {
+        id:3,
         image: card3,
         star: 4.8,
         place: 2,
@@ -41,7 +44,7 @@ export default function Footer(){
     return(
         <div className={styles.footer + ' mx-4 d-flex gap-3'}>
             {cardData.map(cardData => (
-            <div className={styles.expGroup}>       
+            <div key={cardData.id} className={styles.expGroup}>       
                 <img className={styles.image + 'w-100 mb-2'} src={cardData.image} alt="" />
                 <p className={`${gStyles.fWeight300} ${gStyles.fSize12} d-flex align-items-center mb-1`}><Icon className={styles.star + ' me-1 fSize14'} icon="clarity:star-solid" />{cardData.star}<span className=" ms-1 p-gray">({cardData.place}) · USA</span></p>
                 <p className={`${gStyles.fWeight300} ${gStyles.fSize12} mb-1`}>{cardData.cardHead}</p>
