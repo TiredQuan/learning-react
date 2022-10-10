@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d2923cf.css",
-    "main.js": "/static/js/main.9ee0ab6a.js",
-    "static/media/ava.png": "/static/media/ava.27bd857c3ffb2739d1d1.png",
-    "static/media/image12.png": "/static/media/image12.eac97de08973e3da017a.png",
-    "static/media/mountain-bike1.png": "/static/media/mountain-bike1.b06178072f6d1333ea5e.png",
-    "static/media/wedding-photography1.png": "/static/media/wedding-photography1.902453a60a4e59281c53.png",
-    "static/media/image23.png": "/static/media/image23.dec31078becc4bb81ab6.png",
-    "static/media/image27.png": "/static/media/image27.91141b0e9b620f5c8922.png",
-    "static/media/image24.png": "/static/media/image24.1ab7fa6b18a9c899faa2.png",
-    "static/media/image26.png": "/static/media/image26.610a12a342d1b5d61943.png",
-    "static/media/image22.png": "/static/media/image22.e0cfc3c8a5c73187f3bc.png",
-    "static/media/image29.png": "/static/media/image29.a2dd986edfed701a1eea.png",
-    "static/media/image28.png": "/static/media/image28.7a911b6068eace69a786.png",
-    "static/media/image30.png": "/static/media/image30.6e7d3d3592dc779c2311.png",
-    "static/media/image25.png": "/static/media/image25.f0b0fa475cbd012888c8.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.1d2923cf.css.map": "/static/css/main.1d2923cf.css.map",
-    "main.9ee0ab6a.js.map": "/static/js/main.9ee0ab6a.js.map"
+    "main.css": "/react-gh-pages/static/css/main.1d2923cf.css",
+    "main.js": "/react-gh-pages/static/js/main.790f4433.js",
+    "static/media/ava.png": "/react-gh-pages/static/media/ava.27bd857c3ffb2739d1d1.png",
+    "static/media/image12.png": "/react-gh-pages/static/media/image12.eac97de08973e3da017a.png",
+    "static/media/mountain-bike1.png": "/react-gh-pages/static/media/mountain-bike1.b06178072f6d1333ea5e.png",
+    "static/media/wedding-photography1.png": "/react-gh-pages/static/media/wedding-photography1.902453a60a4e59281c53.png",
+    "static/media/image23.png": "/react-gh-pages/static/media/image23.dec31078becc4bb81ab6.png",
+    "static/media/image27.png": "/react-gh-pages/static/media/image27.91141b0e9b620f5c8922.png",
+    "static/media/image24.png": "/react-gh-pages/static/media/image24.1ab7fa6b18a9c899faa2.png",
+    "static/media/image26.png": "/react-gh-pages/static/media/image26.610a12a342d1b5d61943.png",
+    "static/media/image22.png": "/react-gh-pages/static/media/image22.e0cfc3c8a5c73187f3bc.png",
+    "static/media/image29.png": "/react-gh-pages/static/media/image29.a2dd986edfed701a1eea.png",
+    "static/media/image28.png": "/react-gh-pages/static/media/image28.7a911b6068eace69a786.png",
+    "static/media/image30.png": "/react-gh-pages/static/media/image30.6e7d3d3592dc779c2311.png",
+    "static/media/image25.png": "/react-gh-pages/static/media/image25.f0b0fa475cbd012888c8.png",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1d2923cf.css.map": "/react-gh-pages/static/css/main.1d2923cf.css.map",
+    "main.790f4433.js.map": "/react-gh-pages/static/js/main.790f4433.js.map"
   },
   "entrypoints": [
     "static/css/main.1d2923cf.css",
-    "static/js/main.9ee0ab6a.js"
+    "static/js/main.790f4433.js"
   ]
 }
