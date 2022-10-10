@@ -1,14 +1,19 @@
-.TravelCard{
-    display: flex;
-    width: 100%;
-
-}
 
 .TravelCard .CardImage{
     width: 125px;
     height: 168px;
+    border-radius: 5px;
     background: center/cover no-repeat;
-    /* background-size: 500%; */
 }
 
+.TravelCard .CardInfo{
+    width: 326px;
+}
+.textCountry{
+    letter-spacing: 2px;
+}
+.icon{
+    color: #F55A5A;
+    font-size: 15px;
+}
 /* 326px FOR THE WORD DIV */
