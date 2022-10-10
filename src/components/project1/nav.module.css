@@ -1,35 +1,27 @@
-.d-flex{
+.dFlex{
     height: 91px;
-  
+    background-color: #21222A;
     padding: 0 27px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .d-flex a{
+  .dFlex a{
     display: flex;
     align-items: center;
     text-decoration: none;
   }
-  .d-flex a img{
+  .dFlex a img{
     width: 45px;
     height: 45px;
   }
-  .d-flex h1{
+  .dFlex h1{
     color: #61DAFB;
-  }
-  .d-flex h2{
-    color: #DEEBF8;
-  }
-  nav{
-    background-color: #21222A;
-  }
-  
-  h1{
     font-size: 22.25px;
     font-weight: 700;
   }
-  h2{
+  .dFlex h2{
+    color: #DEEBF8;
     font-size: 16px;
     font-weight: 600;
   }

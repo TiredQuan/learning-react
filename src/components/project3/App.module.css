@@ -1,9 +1,5 @@
 
 
-body{
-    background-color: #E5E5E5;
-}
-
 .App{
     font-family: 'Poppins', sans-serif;
     width: 550px;
@@ -13,31 +9,31 @@ body{
     background-color: #fff;
 }
 
-.f-weight-600{
+.fWeight600{
     font-weight: 600;
 }
-.f-weight-400{
+.fWeight400{
     font-weight: 400;
 }
-.f-weight-300{
+.fWeight300{
     font-weight: 300;
 }
 
-.f-size-36{
+.fSize36{
     font-size: 36px;
 }
-.f-size-16{
+.fSize16{
     font-size: 16px;
 }
-.f-size-14{
+.fSize14{
     font-size: 14px;
 }
-.f-size-12{
+.fSize12{
     font-size: 12px;
 }
-.f-size-10{
+.fSize10{
     font-size: 10.24px;
 }
-.p-gray{
+.pGray{
     color: #918E9B;
 }

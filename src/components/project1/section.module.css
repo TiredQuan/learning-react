@@ -1,18 +1,18 @@
 
-h3{
+.h3{
     font-size: 39px;
     font-weight: 700;
     padding: 46px 0;
     margin: 0 0 0 27px;
   }
   
-  section{
+  .section{
     height: 459px;
     background-color: #282D35;
     color: white;
     position: relative;
   }
-  section::before{
+  .section::before{
     background: center url(../../images/Proj1/ReactBG.png) no-repeat;
     /* background-size: 100%; */
     width: 131.5px;
@@ -23,11 +23,11 @@ h3{
     bottom: 25%;
     right: 0;
   }
-  section ul li{
+  .section ul li{
     margin: 15px 74px;
   }
   
-  ul li::before{
+  .ul li::before{
     color: #61DAFB;
       float: left;
       margin: 0 0 0 -1.25em;

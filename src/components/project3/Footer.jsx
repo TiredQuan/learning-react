@@ -1,4 +1,5 @@
 import styles from './Footer.module.css'
+import gStyles from './App.module.css'
 import { Icon } from '@iconify/react';
 import card1 from './../../images/Proj3/image12.png'
 import card2 from './../../images/Proj3/wedding-photography1.png'
@@ -42,12 +43,12 @@ export default function Footer(){
             {cardData.map(cardData => (
             <div className={styles.expGroup}>       
                 <img className={styles.image + 'w-100 mb-2'} src={cardData.image} alt="" />
-                <p className='f-weight-300 d-flex align-items-center f-size-12 mb-1'><Icon className={styles.star + ' me-1 f-size-14'} icon="clarity:star-solid" />{cardData.star}<span className=" ms-1 p-gray">({cardData.place}) · USA</span></p>
-                <p className='f-weight-300 f-size-12 mb-1'>{cardData.cardHead}</p>
-                <p className='f-weight-600 f-size-12 mb-1'> From ${cardData.price} <span className='f-weight-300'>/ person</span></p>
+                <p className={`${gStyles.fWeight300} ${gStyles.fSize12} d-flex align-items-center mb-1`}><Icon className={styles.star + ' me-1 fSize14'} icon="clarity:star-solid" />{cardData.star}<span className=" ms-1 p-gray">({cardData.place}) · USA</span></p>
+                <p className={`${gStyles.fWeight300} ${gStyles.fSize12} mb-1`}>{cardData.cardHead}</p>
+                <p className={`${gStyles.fWeight600} ${gStyles.fSize12} mb-1`}> From ${cardData.price} <span className={gStyles.fWeight300}>/ person</span></p>
                 
                 {cardData.sold
-                ? <div className={styles.cardSold + " text-uppercase f-size-10"}><p className='my-1 mx-2'>{cardData.soldPlus}</p></div>
+                ? <div className={`${styles.cardSold} text-uppercase ${gStyles.fSize10}`}><p className='my-1 mx-2'>{cardData.soldPlus}</p></div>
                 : ''
                 }
             </div>

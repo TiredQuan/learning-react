@@ -1,3 +1,4 @@
+import gStyles from './App.module.css'
 import styles from './Main.module.css'
 
 
@@ -24,8 +25,8 @@ export default function Main(){
             </div>
         </section>
         <section className='mx-4'>
-            <h1 className='my-3 text-capitalize f-size-36 f-weight-600'>Online experiences</h1>
-            <p className='f-size-16 f-weight-300'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+            <h1 className={`my-3 text-capitalize ${gStyles.fSize36} ${gStyles.fWeight600}`}>Online experiences</h1>
+            <p className={`${gStyles.fSize16} ${gStyles.fWeight300}`}>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
         </section>
     </div>
     )
