@@ -1,0 +1,23 @@
+.App{
+    font-family: 'Karla', sans-serif;
+    width: 550px;
+    margin-top: 75px;
+}
+.fWeight700{
+    font-weight: 700;
+}
+.fWeight500{
+    font-weight: 500;
+}
+.fWeight400{
+    font-weight: 400;
+}
+.fSize20{
+    font-size: 20.75px;
+}
+.fSize16{
+    font-size:16px;
+}
+.fSize12{
+    font-size: 12px;
+}
