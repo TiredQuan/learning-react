@@ -19,6 +19,7 @@ export default function Main(){
         setCringeValue1(cringeInput1.value)
         setCringeValue2(cringeInput2.value)
     }
+    //This code is fucking garbage, Watch the tutorial again and redo it for fuck sake
 
     
     function getImage(){
