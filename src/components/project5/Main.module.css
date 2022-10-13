@@ -1,7 +1,21 @@
-.Main{
 
-}
 .btnCustom{
     background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
     color: white;
+}
+
+.cringer{
+    position: relative;
+}
+
+.cringeCarrier{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 32px;
+}
+
+.cringeCarrier2{
+    bottom: 0%;
 }
