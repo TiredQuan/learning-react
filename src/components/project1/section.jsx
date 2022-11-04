@@ -1,9 +1,8 @@
 import styles from './section.module.css'
 
-
-export default function Section(){
+export default function Section(props){
     return(
-        <section className={styles.section}>
+        <section className={`${styles.section} ${props.lightMode ? styles.light : ""}`}>
         <h3 className={styles.h3}>Fun facts about React</h3>
         <ul className={styles.ul}>
           <li>Was first released in 2013</li>

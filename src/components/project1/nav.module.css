@@ -6,6 +6,9 @@
     justify-content: space-between;
     align-items: center;
   }
+.dFlex.light{
+  background-color: #FFFFFF;
+}
   .dFlex a{
     display: flex;
     align-items: center;
@@ -20,8 +23,67 @@
     font-size: 22.25px;
     font-weight: 700;
   }
-  .dFlex h2{
-    color: #DEEBF8;
-    font-size: 16px;
-    font-weight: 600;
+  .dFlex.light h1{
+    color: #00ABCA;
   }
+
+
+  .toggler {
+    display: flex;
+    align-items: center;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.togglerslider {
+    width: 25px;
+    height: 13px;
+    background-color: #F5F5F5;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    box-sizing: content-box;
+}
+
+.dFlex.light .togglerslider {
+    border-color: black;
+    background-color: #2B283A;
+}
+
+.togglerslidercircle {
+    height: 13px;
+    width: 13px;
+    background-color: #222222;
+    border-radius: 50%;
+}
+
+.dFlex.light .togglerslidercircle {
+    background-color: white;
+}
+
+.togglerlight {
+    color: #918E9B;
+}
+
+.dFlex.light .togglerlight {
+    color: #2B283A;
+}
+
+.togglerdark {
+    color: #FFFFFF;
+}
+
+.dFlex.light .togglerdark {
+    color: #D5D4D8;
+}
+
+.dFlex.light .togglerslider {
+    justify-content: flex-end;
+}

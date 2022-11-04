@@ -12,6 +12,10 @@
     color: white;
     position: relative;
   }
+  .section.light{
+    color: #2B283A;
+    background-color: #FFFFFF;
+  }
   .section::before{
     background: center url(../../images/Proj1/ReactBG.png) no-repeat;
     /* background-size: 100%; */
@@ -27,10 +31,17 @@
     margin: 15px 74px;
   }
   
-  .ul li::before{
+  .section .ul li::before{
     color: #61DAFB;
       float: left;
       margin: 0 0 0 -1.25em;
       width: 1em;
       content: '\2022';
+  }
+  .section.light .ul li:before{
+    color: #00ABCA;
+  }
+  
+  .ul{
+    list-style: none;
   }
