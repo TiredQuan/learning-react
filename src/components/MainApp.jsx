@@ -10,7 +10,6 @@ export default function MainApp(){
     const appArray = [App1,App2,App3,App4,App5]
     let [arrayIndex, setArrayIndex] = useState()
     let currentApp
-    // function handleSwitch(arrayIndex){
         switch (arrayIndex)
             {
                 case 0:
@@ -32,7 +31,6 @@ export default function MainApp(){
                     currentApp = ''
                     break
             }
-    // }
     return(
         <div className={`container ${styles.MainApp}`}>
             <nav>

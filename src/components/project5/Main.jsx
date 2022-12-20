@@ -14,6 +14,7 @@ export default function Main(){
         fetch('https://api.imgflip.com/get_memes')
         .then(res => res.json())
         .then(data => setImgArray(data.data.memes))
+        console.log("Fetched Data")
     }, [])
     
     const [cringeGod, setCringeGod] = useState({
